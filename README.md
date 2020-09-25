@@ -23,9 +23,9 @@ function objectfyNodeArgs(input = []) {
   return object;
 }
 
-const result = objectfyNodeArgs(input)
+const result = objectfyNodeArgs(input);
 
-console.log(result)
+console.log(result);
 ```
 
 </details>

@@ -13,7 +13,7 @@ const separator = '=';
 function objectfyNodeArgs(input = []) {
   let object = {};
 
-  input.forEach((item = '', index) => {
+  input.forEach((item = '') => {
     if (item.includes(separator)) {
        const [key, value] = item.split(separator)
        object[key]=value;

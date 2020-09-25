@@ -1,4 +1,4 @@
-# short-and-simples-js-helpers
+# short-and-simple-js-helpers
 Some js helpers i found along the way that are not worthy turning into a dependency
 
 # Objectfy node args object

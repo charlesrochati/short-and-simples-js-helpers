@@ -1,5 +1,5 @@
-# short-and-simples-js-helpers
-Some js helpers i found along the way that are not worthy turning into a dependency
+# short-and-simple-js-helpers
+Some js helpers i found along the way that are not worth turning into a dependency
 
 
 ---
@@ -15,7 +15,7 @@ const separator = '=';
 function objectfyNodeArgs(input = []) {
   let object = {};
 
-  input.forEach((item = '', index) => {
+  input.forEach((item = '') => {
     if (item.includes(separator)) {
        const [key, value] = item.split(separator)
        object[key]=value;
@@ -25,11 +25,15 @@ function objectfyNodeArgs(input = []) {
   return object;
 }
 
-const result = objectfyNodeArgs(input)
+const result = objectfyNodeArgs(input);
 
+<<<<<<< HEAD
 console.log(result)
 
 // => { api_key:"123" }
+=======
+console.log(result);
+>>>>>>> 024c49976a41ead1a83ad4e48ea85b33553177b5
 ```
 
 </details>

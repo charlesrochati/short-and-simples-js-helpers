@@ -27,15 +27,10 @@ function objectfyNodeArgs(input = []) {
 
 const result = objectfyNodeArgs(input);
 
-<<<<<<< HEAD
 console.log(result)
 
 // => { api_key:"123" }
-=======
-console.log(result);
->>>>>>> 024c49976a41ead1a83ad4e48ea85b33553177b5
 ```
-
 </details>
 
 

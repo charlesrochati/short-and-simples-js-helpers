@@ -53,3 +53,23 @@ console.log(groupBy(['one', 'two', 'three'], 'length'));
 ```
 
 </details>
+
+---
+
+<details>
+  <summary>Split array into chunks</summary>
+
+```js
+function chunk(array, chunkSize) {
+  return [].concat.apply([],
+    array.map(function(elem, i) {
+      return i % chunkSize ? [] : [array.slice(i, i + chunkSize)];
+    })
+  );
+}
+
+console.log(chunk([1, 2, 3, 4, 5, 6, 7], 3))
+// => (3) [[1, 2, 3], [ 4, 5, 6 ], [ 7 ] ]
+```
+
+</details>
